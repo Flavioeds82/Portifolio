@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "react-typed": "^1.2.0",
+    "react-typing-animation": "^1.6.2",
+    "react-typist": "^2.0.5",
+    "type": "^2.7.2"
+  }
+}
