@@ -11,9 +11,6 @@ export const Container = styled.div`
       padding-top: 2rem;
       color: #fff;
 
-      .footer-icons{
-
-      }
       .footer-copy{
 
       }
@@ -27,6 +24,20 @@ export const Container = styled.div`
          }
          .up-bt:hover{
             background-color: #243762;
+         }
+      }
+   }
+   @media screen and (max-width:600px) {
+      .container-footer{
+         width: 100vw;
+         height: auto;
+         overflow: hidden;
+         flex-direction: column;
+         padding-bottom: 2rem;
+
+         .footer-copy{
+            width: 90%;
+            margin: auto;
          }
       }
    }

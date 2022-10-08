@@ -399,15 +399,63 @@ export const Container = styled.div`
       }
       .container-skills{
          width: 100vw;
+         height: auto;
          overflow: hidden;
+
+         .skills-content{
+            background-color: #FFF;
+            background-image: url('');
+            width: 80%;
+            gap: 2rem;
+         }
+         .skills-grid-loading{
+            display: none;
+         }
       }
       .container-projects{
          width: 100vw;
          overflow: hidden;
+
+         .projects-title{
+            h1{
+               font-size:2.5rem;
+            }
+         }
+         .container-projects-grid{
+            grid-template-columns: 1fr;
+         }
       }
       .container-contact{
          width: 100vw;
+         height: auto;
          overflow: hidden;
+         background-color: #FFF;
+         background-image: url('');
+
+         .contact-content{
+            flex-direction: column;
+            width: 80%;
+            height: auto;
+            padding: 0px;
+           
+            .contact-content-left{
+               display: none;
+            }
+            .contact-content-right{
+              width: 100%;
+              height: auto;
+              margin-top: 2rem;
+
+              .contact-content-icons{
+               display: grid;
+               grid-template-columns: repeat(3, 1fr);
+
+                 .contact-icon{
+                    margin: auto;
+                 }
+              }
+            }
+         }
       }
    }
    

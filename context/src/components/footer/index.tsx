@@ -8,7 +8,7 @@ export function Footer(){
                <a href=""></a>
             </div>
             <div className="footer-copy">
-               <p> Desenvolvido por Flávio Eduardo. Todos os direitos reservados.<br/>Copyright &copy; 2022</p>
+               <p> Desenvolvido por Flávio Eduardo.<br/> Todos os direitos reservados.<br/>Copyright &copy; 2022</p>
             </div>
             <div className="footer-buttom">
                <a href="#inicio"><div className="up-bt">Voltar ao topo</div></a>
