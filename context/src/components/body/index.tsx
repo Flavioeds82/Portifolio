@@ -11,7 +11,6 @@ export function Body(){
                   <h1>Olá, sejam bem-vindos ao meu portifólio</h1>
                   <h2>Aqui mostro um pouco do meu conhecimento e desenvolvimento pessoal e profissional.</h2>
                   <h2>Este projeto foi feito com muito carinho e dedicação espero que gostem.</h2>
-                  
                </div>
                <div className="container-rigth">
                   <a href="#about"><div className="frame"></div></a>
@@ -22,10 +21,11 @@ export function Body(){
                <div className="about-content">
                   <div className="about-left"></div>
                   <div className="about-right">
-                     <h2> Meu nome é <strong>Flávio</strong>, tenho 40 anos, moro no Brasil, especificamente em Itaguaí-RJ. Sou formado em Sistemas de Computação pela Universidade Federal Fluminense (UFF/CEDERJ) em 2021. Meu foco é o desenvolvimento web com HTML, CSS, JavaScript, React e Node. Além da aplicação de metodologias ágeis, como SCRUM.</h2>
+                     <h2> Meu nome é <strong>Flávio</strong>, tenho 40 anos, moro no Brasil,  especificamente em Itaguaí-RJ. Sou formado em Sistemas de Computação pela Universidade Federal Fluminense (UFF/CEDERJ) em 2021. Meu foco é o desenvolvimento web com HTML, CSS, JavaScript, React e Node. Além da aplicação de metodologias ágeis, como SCRUM.</h2>
                      <h2> Motorista e Operador há 15 anos, atualmente enfrento os desafios de uma transição de carreira levando comigo importantes <i>skills</i> como comprometimento com resultados, trabalho em equipe, comunicação com o público, análise e planejamento de tarefas e foco no trabalho a ser executado. Estou sempre em constante aprendizado, adoro me aventurar em assuntos desconhecidos e variados. Sinta-se livre para me acompanhar e entrar em contato comigo! </h2>
                   </div>
                </div>
+               
                
             </div>
             <div className="container-skills" id="skills">

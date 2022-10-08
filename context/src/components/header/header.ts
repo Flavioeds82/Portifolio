@@ -55,6 +55,40 @@ export const Container = styled.div`
       
       
    }
-   
+   @media(max-width:600px){
+      .container{
+         flex-direction: column;
+         width: 100%;
+         height: auto;
+      }
+      .container .container-logo{
+         width: 100vw;
+         height: auto;
+      }
+      .container .container-logo img{
+         width: 16rem;
+         margin: auto;
+      }
+      .container-menu{
+         width: 100%;
+         height: auto;
+         margin: auto;
+         font-size: 15px;
+         text-align: center;
+
+      }
+      .container-menu ul{
+         flex-direction: column;
+         margin-right: 50px;
+         text-align: left;
+      }
+      .container li{
+         margin: auto;
+         /* margin-right: 2.5rem; */
+         a{
+            margin: auto;
+         }
+      }
+   }
 
 `;

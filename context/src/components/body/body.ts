@@ -337,6 +337,80 @@ export const Container = styled.div`
    }
    @keyframes slide-in {
       100% { left: 0 }
-}
+   }
+
+
+
+   @media screen and (max-width:600px){
+      & {
+         max-width: 100vw;
+         overflow: hidden;
+      }
+      
+      .container-start{
+         /* width: 360px; */
+         height: auto;
+         overflow: hidden;
+         flex-direction: column;
+         padding-bottom: 2rem;
+         
+         .container-left{
+            width: 80%;
+            overflow: hidden;
+            margin: auto;
+         }
+         .container-rigth{
+            width: 100%;
+            overflow: hidden;
+            margin: auto;
+
+            a{
+               margin: auto;
+            }
+         }
+      }
+      .container-about{
+         width: 80%;
+         overflow: hidden;
+         margin: auto;
+
+         .about-title{
+            width: 80%;
+            text-align: center;
+            h1{
+               font-size: 2.5rem;
+               margin: auto;
+               padding-bottom: 2rem;
+            }
+         }
+         .about-content{
+            margin-right: 0;
+            flex-direction: column;
+            
+            .about-left{
+               width:15rem;
+               height:15rem;
+            }
+            .about-right{
+               width: 100%;
+               padding:0;
+            }
+         }
+      }
+      .container-skills{
+         width: 100vw;
+         overflow: hidden;
+      }
+      .container-projects{
+         width: 100vw;
+         overflow: hidden;
+      }
+      .container-contact{
+         width: 100vw;
+         overflow: hidden;
+      }
+   }
+   
+   
    
 `;
