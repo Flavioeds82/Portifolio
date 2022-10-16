@@ -1,5 +1,15 @@
 import { useEffect, useState } from "react";
 import {Container} from "./body";
+import calculadora from "../../../src/images/calculadora-imc.png";
+import jogo_memoria from "../../../src/images/jogo-memoria.png";
+import urna from "../../../src/images/urna-eletronica.png";
+import medicenter from "../../../src/images/medicenter.png";
+import starbucks from "../../../src/images/starbucks.png";
+import awax from "../../../src/images/awax.png";
+import cardapio from "../../../src/images/cardapio-pizza.png";
+import arrasta from "../../../src/images/jogo-arraste-e-solte.png";
+import breve from "../../../src/images/em-breve.jpg";
+
 
 
 export function Body(){
@@ -68,7 +78,7 @@ export function Body(){
                      <div className="projects-grid-items">
                         <div className="project-title"><h3>Calculadora IMC</h3></div>
                         <div className="project-image">
-                           <img src="../../src/images/calculadora-imc.png" alt="" />
+                           <img src={calculadora} alt="" />
                         </div>
                         <div className="project-modal">
                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"/>
@@ -82,7 +92,7 @@ export function Body(){
                   <a href="https://projeto-jogo-da-memoria-seven.vercel.app/" target="_blank">
                      <div className="projects-grid-items">
                         <div className="project-title"><h3>Jogo da Memória</h3></div>
-                        <div className="project-image"><img src="../../src/images/jogo-memoria.png" alt="" /></div>
+                        <div className="project-image"><img src={jogo_memoria} alt="" /></div>
                         <div className="project-modal">
                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"/>
                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
@@ -95,7 +105,7 @@ export function Body(){
                   <a href="https://flavioeds82.github.io/Projeto-Urna-Eletronica/" target="_blank">
                      <div className="projects-grid-items">
                         <div className="project-title"><h3>Urna Eletrônica</h3></div>
-                        <div className="project-image"><img src="../../src/images/urna-eletronica.png" alt="" /></div>
+                        <div className="project-image"><img src={urna} alt="" /></div>
                         <div className="project-modal">
                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"/>
                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
@@ -106,7 +116,7 @@ export function Body(){
                   <a href="https://flavioeds82.github.io/Projeto-MediCenter/" target="_blank">
                      <div className="projects-grid-items">
                         <div className="project-title"><h3>MediCenter</h3></div>
-                        <div className="project-image"><img src="../../src/images/medicenter.png" alt="" /></div>
+                        <div className="project-image"><img src={medicenter} alt="" /></div>
                         <div className="project-modal">
                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"/>
                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
@@ -116,7 +126,7 @@ export function Body(){
                   <a href="https://flavioeds82.github.io/Projeto-StarBucks/" target="_blank">
                      <div className="projects-grid-items">
                         <div className="project-title"><h3>StarBucks</h3></div>
-                        <div className="project-image"><img src="../../src/images/starbucks.png" alt="" /></div>
+                        <div className="project-image"><img src={starbucks} alt="" /></div>
                         <div className="project-modal">
                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"/>
                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
@@ -126,7 +136,7 @@ export function Body(){
                   <a href="https://flavioeds82.github.io/Projeto--Awax/" target="_blank">
                      <div className="projects-grid-items">
                         <div className="project-title"><h3>Awax Project</h3></div>
-                        <div className="project-image"><img src="../../src/images/awax.png" alt="" /></div>
+                        <div className="project-image"><img src={awax} alt="" /></div>
                         <div className="project-modal">
                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"/>
                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
@@ -136,7 +146,7 @@ export function Body(){
                   <a href="https://flavioeds82.github.io/Projeto-Compra-de-Pizzas/" target="_blank">
                      <div className="projects-grid-items">
                         <div className="project-title"><h3>Cardápio de Pizzas</h3></div>
-                        <div className="project-image"><img src="../../src/images/cardapio-pizza.png" alt="" /></div>
+                        <div className="project-image"><img src={cardapio} alt="" /></div>
                         <div className="project-modal">
                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"/>
                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
@@ -147,7 +157,7 @@ export function Body(){
                   <a href="https://flavioeds82.github.io/Projeto-Arrasta-e-Solta/" target="_blank">
                      <div className="projects-grid-items">
                         <div className="project-title"><h3>Jogo Arrasta e Solte</h3></div>
-                        <div className="project-image"><img src="../../src/images/jogo-arraste-e-solte.png" alt="" /></div>
+                        <div className="project-image"><img src={arrasta} alt="" /></div>
                         <div className="project-modal">
                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"/>
                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
@@ -158,7 +168,7 @@ export function Body(){
                   <a href="https://github.com/Flavioeds82" target="_blank">
                      <div className="projects-grid-items">
                         <div className="project-title"><h3>Projeto OX</h3></div>
-                        <div className="project-image"><img src="../../src/images/em-breve.jpg" alt="" /></div>
+                        <div className="project-image"><img src={breve} alt="" /></div>
                         <div className="project-modal">
                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"/>
                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />

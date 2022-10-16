@@ -1,11 +1,17 @@
 import styled from 'styled-components';
+import bg from "../../../src/images/bg.svg";
+import foto from "../../../src/images/foto.png";
+import foto_2 from "../../../src/images/foto-2.jpg";
+import bg_2 from "../../../src/images/bg-2.svg";
+import eng from "../../../src/images/eng.png";
+import bg_contato from "../../../src/images/bg-contato-2.svg";
 
 export const Container = styled.div`
 
    .container-start{
       width: 100%;
       height: 100vh;
-      background-image: url("../../src/images/bg.svg");
+      background-image: url(${bg});
       background-size: cover;
       display:flex;
       justify-content: center;
@@ -40,7 +46,7 @@ export const Container = styled.div`
             width: 10rem ;
             height: 10rem;
             border-radius: 50%;
-            background-image: url("../../src/images/foto.png");
+            background-image: url(${foto});
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -84,7 +90,7 @@ export const Container = styled.div`
             height: 20rem;
             border: 5px solid #fff;
             border-radius: 50%;
-            background-image: url("../../src/images/foto-2.jpg");
+            background-image: url(${foto_2});
             background-size: cover;
             background-position: center;
             
@@ -117,7 +123,7 @@ export const Container = styled.div`
          align-items: center;
          width: 90%;
          height: 100%;
-         background-image: url("../../src/images/bg-2.svg");
+         background-image: url(${bg_2});
          background-repeat: no-repeat;
          background-size: contain;
          background-position: center;
@@ -161,7 +167,7 @@ export const Container = styled.div`
             width: 3rem;
             height: 3rem;
             margin: 2rem;
-            background-image: url("../../src/images/eng.png");
+            background-image: url(${eng});
             background-size: cover;
             -webkit-transition: all 0.7s ease;
             transition: all 1s ease;
@@ -256,7 +262,7 @@ export const Container = styled.div`
       text-align: center;
       width: 100%;
       height: 50rem;
-      background-image: url("../../src/images/bg-contato-2.svg");
+      background-image: url(${bg_contato});
       background-size: cover;
       background-repeat: no-repeat;
       margin: auto;

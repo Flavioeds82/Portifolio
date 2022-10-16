@@ -4,8 +4,8 @@ export function Footer(){
    return(
       <Container>
          <div className="container-footer">
-            <div className="footer-icons"> 
-               <a href=""></a>
+            <div className="footer-buttom"> 
+               <a href="https://drive.google.com/file/d/1GhdyLzHJDNrjBU8SkrhSkNIbTV-PJjOK/view?usp=sharing" target="_blanck"><div className="up-bt">Download CV</div></a>
             </div>
             <div className="footer-copy">
                <p> Desenvolvido por Flávio Eduardo.<br/> Todos os direitos reservados.<br/>Copyright &copy; 2022</p>
