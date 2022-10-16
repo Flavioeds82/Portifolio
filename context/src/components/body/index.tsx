@@ -9,6 +9,9 @@ import awax from "../../../src/images/awax.png";
 import cardapio from "../../../src/images/cardapio-pizza.png";
 import arrasta from "../../../src/images/jogo-arraste-e-solte.png";
 import breve from "../../../src/images/em-breve.jpg";
+import whats from "../../../src/images/whats.png";
+import email from "../../../src/images/email.png";
+import telefone from "../../../src/images/telefone.png";
 
 
 
@@ -199,17 +202,17 @@ export function Body(){
                         </a>
                         <a href="https://api.whatsapp.com/send?phone=5521998085411&text=Ol%C3%A1%2C%20estou%20vindo%20do%20seu%20portif%C3%B3lio." target="_blanck">
                            <div className="contact-icon">
-                              <img src="../../src/images/whats.png" alt="" />
+                              <img src={whats} alt="" />
                            </div>
                         </a>
                         <a href="mailto:flavioeds2013@gmail.com" target="_blanck">
                            <div className="contact-icon">
-                              <img src="../../src/images/email.png" alt="" />
+                              <img src={email} alt="" />
                            </div>
                         </a>
                         <a href="tel:5521998085411" target="_blanck">
                            <div className="contact-icon">
-                              <img src="../../src/images/telefone.png" alt="" />
+                              <img src={telefone} alt="" />
                            </div>
                         </a>
                      </div>
