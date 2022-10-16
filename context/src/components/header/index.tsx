@@ -1,11 +1,12 @@
 import { Container } from "./header";
+import logo from "../../../src/images/logo.gif";
 
 export function Header(){
    return(
       <Container>
          <div className="container">
             <div className="container-logo">
-               <img src="../../src/images/logo.gif" alt="" />
+               <img src={logo} alt="" />
             </div>
             <div className="container-menu" id="inicio">
                <nav>
